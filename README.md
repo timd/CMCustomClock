@@ -1,4 +1,4 @@
-CMClock
-=======
+CMCustomClock
+=============
 
-Source code for initial state of clock-based custom layout example (work in progess!)
+Analogue clock implemented in UICollectionView with a custom layout
