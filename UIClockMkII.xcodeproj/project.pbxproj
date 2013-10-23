@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224989651817D5200028E8F8 /* CMCollectionViewSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 224989641817D5200028E8F8 /* CMCollectionViewSupport.m */; };
+		224989691817D76F0028E8F8 /* CMCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224989681817D76F0028E8F8 /* CMCollectionViewCell.xib */; };
 		22F2E5361816CCCE004857EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E5351816CCCE004857EC /* Foundation.framework */; };
 		22F2E5381816CCCE004857EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E5371816CCCE004857EC /* CoreGraphics.framework */; };
 		22F2E53A1816CCCE004857EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E5391816CCCE004857EC /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		224989631817D5200028E8F8 /* CMCollectionViewSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCollectionViewSupport.h; sourceTree = "<group>"; };
+		224989641817D5200028E8F8 /* CMCollectionViewSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCollectionViewSupport.m; sourceTree = "<group>"; };
+		224989681817D76F0028E8F8 /* CMCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMCollectionViewCell.xib; sourceTree = "<group>"; };
 		22F2E5321816CCCE004857EC /* UIClockMkII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIClockMkII.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F2E5351816CCCE004857EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22F2E5371816CCCE004857EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +84,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		224989621817D5020028E8F8 /* Collection view support */ = {
+			isa = PBXGroup;
+			children = (
+				224989631817D5200028E8F8 /* CMCollectionViewSupport.h */,
+				224989641817D5200028E8F8 /* CMCollectionViewSupport.m */,
+			);
+			name = "Collection view support";
+			sourceTree = "<group>";
+		};
+		224989661817D7460028E8F8 /* Collection view */ = {
+			isa = PBXGroup;
+			children = (
+				224989621817D5020028E8F8 /* Collection view support */,
+				224989671817D7590028E8F8 /* Nibs */,
+			);
+			name = "Collection view";
+			sourceTree = "<group>";
+		};
+		224989671817D7590028E8F8 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				224989681817D76F0028E8F8 /* CMCollectionViewCell.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
 		22F2E5291816CCCE004857EC = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +145,7 @@
 			children = (
 				22F2E56A1817CD02004857EC /* App delegate */,
 				22F2E56C1817CD0F004857EC /* View controller */,
+				224989661817D7460028E8F8 /* Collection view */,
 				22F2E54D1816CCCE004857EC /* Images.xcassets */,
 				22F2E53C1816CCCE004857EC /* Supporting Files */,
 			);
@@ -245,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224989691817D76F0028E8F8 /* CMCollectionViewCell.xib in Resources */,
 				22F2E56E1817CD30004857EC /* CMClockViewController.xib in Resources */,
 				22F2E54E1816CCCE004857EC /* Images.xcassets in Resources */,
 				22F2E5401816CCCE004857EC /* InfoPlist.strings in Resources */,
@@ -266,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224989651817D5200028E8F8 /* CMCollectionViewSupport.m in Sources */,
 				22F2E5461816CCCE004857EC /* CMClockAppDelegate.m in Sources */,
 				22F2E5421816CCCE004857EC /* main.m in Sources */,
 				22F2E54C1816CCCE004857EC /* CMClockViewController.m in Sources */,
