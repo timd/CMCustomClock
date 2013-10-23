@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Charismatic Megafauna Ltd. All rights reserved.
 //
 
-#import "CMViewController.h"
+#import "CMClockViewController.h"
 
-@interface CMViewController ()
+@interface CMClockViewController ()
 
 @end
 
-@implementation CMViewController
+@implementation CMClockViewController
 
 - (void)viewDidLoad
 {

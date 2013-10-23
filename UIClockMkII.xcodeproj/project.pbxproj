@@ -12,15 +12,15 @@
 		22F2E53A1816CCCE004857EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E5391816CCCE004857EC /* UIKit.framework */; };
 		22F2E5401816CCCE004857EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E53E1816CCCE004857EC /* InfoPlist.strings */; };
 		22F2E5421816CCCE004857EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5411816CCCE004857EC /* main.m */; };
-		22F2E5461816CCCE004857EC /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5451816CCCE004857EC /* CMAppDelegate.m */; };
-		22F2E5491816CCCE004857EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5471816CCCE004857EC /* Main.storyboard */; };
-		22F2E54C1816CCCE004857EC /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E54B1816CCCE004857EC /* CMViewController.m */; };
+		22F2E5461816CCCE004857EC /* CMClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5451816CCCE004857EC /* CMClockAppDelegate.m */; };
+		22F2E54C1816CCCE004857EC /* CMClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E54B1816CCCE004857EC /* CMClockViewController.m */; };
 		22F2E54E1816CCCE004857EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E54D1816CCCE004857EC /* Images.xcassets */; };
 		22F2E5551816CCCE004857EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E5541816CCCE004857EC /* XCTest.framework */; };
 		22F2E5561816CCCE004857EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E5351816CCCE004857EC /* Foundation.framework */; };
 		22F2E5571816CCCE004857EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E5391816CCCE004857EC /* UIKit.framework */; };
 		22F2E55F1816CCCE004857EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E55D1816CCCE004857EC /* InfoPlist.strings */; };
 		22F2E5611816CCCE004857EC /* UIClockMkIITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5601816CCCE004857EC /* UIClockMkIITests.m */; };
+		22F2E56E1817CD30004857EC /* CMClockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E56D1817CD30004857EC /* CMClockViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +42,17 @@
 		22F2E53F1816CCCE004857EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22F2E5411816CCCE004857EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22F2E5431816CCCE004857EC /* UIClockMkII-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIClockMkII-Prefix.pch"; sourceTree = "<group>"; };
-		22F2E5441816CCCE004857EC /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
-		22F2E5451816CCCE004857EC /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
-		22F2E5481816CCCE004857EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		22F2E54A1816CCCE004857EC /* CMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
-		22F2E54B1816CCCE004857EC /* CMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
+		22F2E5441816CCCE004857EC /* CMClockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMClockAppDelegate.h; sourceTree = "<group>"; };
+		22F2E5451816CCCE004857EC /* CMClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMClockAppDelegate.m; sourceTree = "<group>"; };
+		22F2E54A1816CCCE004857EC /* CMClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMClockViewController.h; sourceTree = "<group>"; };
+		22F2E54B1816CCCE004857EC /* CMClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMClockViewController.m; sourceTree = "<group>"; };
 		22F2E54D1816CCCE004857EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22F2E5531816CCCE004857EC /* UIClockMkIITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIClockMkIITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F2E5541816CCCE004857EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		22F2E55C1816CCCE004857EC /* UIClockMkIITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIClockMkIITests-Info.plist"; sourceTree = "<group>"; };
 		22F2E55E1816CCCE004857EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22F2E5601816CCCE004857EC /* UIClockMkIITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIClockMkIITests.m; sourceTree = "<group>"; };
+		22F2E56D1817CD30004857EC /* CMClockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMClockViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,8 @@
 		22F2E53B1816CCCE004857EC /* UIClockMkII */ = {
 			isa = PBXGroup;
 			children = (
-				22F2E5441816CCCE004857EC /* CMAppDelegate.h */,
-				22F2E5451816CCCE004857EC /* CMAppDelegate.m */,
-				22F2E5471816CCCE004857EC /* Main.storyboard */,
-				22F2E54A1816CCCE004857EC /* CMViewController.h */,
-				22F2E54B1816CCCE004857EC /* CMViewController.m */,
+				22F2E56A1817CD02004857EC /* App delegate */,
+				22F2E56C1817CD0F004857EC /* View controller */,
 				22F2E54D1816CCCE004857EC /* Images.xcassets */,
 				22F2E53C1816CCCE004857EC /* Supporting Files */,
 			);
@@ -150,6 +147,25 @@
 				22F2E55D1816CCCE004857EC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22F2E56A1817CD02004857EC /* App delegate */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5441816CCCE004857EC /* CMClockAppDelegate.h */,
+				22F2E5451816CCCE004857EC /* CMClockAppDelegate.m */,
+			);
+			name = "App delegate";
+			sourceTree = "<group>";
+		};
+		22F2E56C1817CD0F004857EC /* View controller */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E54A1816CCCE004857EC /* CMClockViewController.h */,
+				22F2E54B1816CCCE004857EC /* CMClockViewController.m */,
+				22F2E56D1817CD30004857EC /* CMClockViewController.xib */,
+			);
+			name = "View controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F2E56E1817CD30004857EC /* CMClockViewController.xib in Resources */,
 				22F2E54E1816CCCE004857EC /* Images.xcassets in Resources */,
 				22F2E5401816CCCE004857EC /* InfoPlist.strings in Resources */,
-				22F2E5491816CCCE004857EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F2E5461816CCCE004857EC /* CMAppDelegate.m in Sources */,
+				22F2E5461816CCCE004857EC /* CMClockAppDelegate.m in Sources */,
 				22F2E5421816CCCE004857EC /* main.m in Sources */,
-				22F2E54C1816CCCE004857EC /* CMViewController.m in Sources */,
+				22F2E54C1816CCCE004857EC /* CMClockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +297,6 @@
 				22F2E53F1816CCCE004857EC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		22F2E5471816CCCE004857EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22F2E5481816CCCE004857EC /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		22F2E55D1816CCCE004857EC /* InfoPlist.strings */ = {
@@ -463,6 +471,7 @@
 				22F2E5661816CCCE004857EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F2E5671816CCCE004857EC /* Build configuration list for PBXNativeTarget "UIClockMkIITests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +480,7 @@
 				22F2E5691816CCCE004857EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

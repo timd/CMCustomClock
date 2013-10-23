@@ -6,16 +6,21 @@
 //  Copyright (c) 2013 Charismatic Megafauna Ltd. All rights reserved.
 //
 
-#import "CMAppDelegate.h"
+#import "CMClockAppDelegate.h"
+#import "CMClockViewController.h"
 
-@implementation CMAppDelegate
+@implementation CMClockAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    CMClockViewController *viewController = [[CMClockViewController alloc] initWithNibName:@"CMClockViewController" bundle:nil];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

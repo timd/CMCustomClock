@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CMViewController : UIViewController
+@interface CMClockViewController : UIViewController
 
 @end

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CMAppDelegate : UIResponder <UIApplicationDelegate>
+@interface CMClockAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
